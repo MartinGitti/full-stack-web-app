@@ -87,3 +87,9 @@ Basic pre-requesites for the development of the App:
 The app will be deployed to heroku after development so that users will be able to use the Full Stack App.
 
 Example of the steps needed to follow for deploying the Full Stack Web App to heroku can be found on: 'https://medium.com/crowdbotics/deploy-a-mern-stack-app-on-heroku-b0c255744a70'.
+<hr/>
+
+### Display of web application in action:
+<img src="demo.gif" alt="display of web app">
+
+<span>Happy Coding :sunglasses:</span>
