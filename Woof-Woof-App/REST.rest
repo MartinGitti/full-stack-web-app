@@ -1,0 +1,58 @@
+POST  http://localhost:8080/auth/signup
+Content-Type: application/json
+
+{
+    "name": "Martin",
+    "email": "martinreedsafari@gmail.com",
+    "password": "Martin#123"
+}
+
+###
+
+POST  http://localhost:8080/auth/signin
+Content-Type: application/json
+
+{
+    "email": "martinreedsafari@gmail.com",
+    "password": "Martin#123"
+
+}
+
+###
+
+GET http://localhost:8080/barks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1NTkwOTA3NjRlMzY2ZTA5MWJlNTkiLCJpYXQiOjE1OTczMzQ3MzIsImV4cCI6MTU5NzkzOTUzMn0.q8IOOv4_R8TpPOdSadI9DhwkyS9EhjDTkBwDacrrjt4
+
+###
+
+POST http://localhost:8080/barks/new
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1NTkwOTA3NjRlMzY2ZTA5MWJlNTkiLCJpYXQiOjE1OTczMzQ3MzIsImV4cCI6MTU5NzkzOTUzMn0.q8IOOv4_R8TpPOdSadI9DhwkyS9EhjDTkBwDacrrjt4
+
+{
+    "bark": "A new bark was sent!"
+}
+
+###
+
+PUT http://localhost:8080/barks/update/{_id}
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1NTkwOTA3NjRlMzY2ZTA5MWJlNTkiLCJpYXQiOjE1OTczMzQ3MzIsImV4cCI6MTU5NzkzOTUzMn0.q8IOOv4_R8TpPOdSadI9DhwkyS9EhjDTkBwDacrrjt4
+
+{
+    "bark": "The bark got updated!"
+}
+
+###
+
+DELETE http://localhost:8080/barks/{_id}
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1NTkwOTA3NjRlMzY2ZTA5MWJlNTkiLCJpYXQiOjE1OTczMzQ3MzIsImV4cCI6MTU5NzkzOTUzMn0.q8IOOv4_R8TpPOdSadI9DhwkyS9EhjDTkBwDacrrjt4
+
+{
+    "bark": "The bark got deleted!"
+}
+
+###
+
+GET http://localhost:8080/barks/test

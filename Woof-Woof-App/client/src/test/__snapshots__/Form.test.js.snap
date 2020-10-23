@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component correctly 1`] = `
+<div
+  className="form-div"
+>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="barking.png"
+      />
+      <h1>
+        Woof Woof Barker 
+        <span
+          aria-label="dog"
+          role="img"
+        >
+          🐕
+        </span>
+      </h1>
+    </header>
+  </div>
+  <form
+    className="woof-user-form"
+  >
+    <label>
+      Name:
+    </label>
+    <input
+      className="u-full-width"
+      name=""
+      onChange={[Function]}
+      placeholder="Name..."
+      type="text"
+    />
+    <label>
+      Woof:
+    </label>
+    <textarea
+      className="u-full-width"
+      name=""
+      onChange={[Function]}
+      placeholder="add your bark here..."
+      type="text"
+    />
+    <button
+      className="button"
+      onClick={[Function]}
+      type="submit"
+    >
+      Woof Woof Bark 
+      <span
+        aria-label="dog-face"
+        role="img"
+      >
+        🐶)))
+      </span>
+    </button>
+  </form>
+  <div
+    className="loading"
+  >
+    <img
+      alt="loading gif"
+      className="loading-gif"
+      src="loading.gif"
+    />
+  </div>
+</div>
+`;

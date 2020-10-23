@@ -1,0 +1,135 @@
+body{
+    background-color: #5f5b5a;
+}
+
+#root{
+    background-color:rgb(226, 55, 25);
+    padding: 50px;
+}
+
+/* Header component Styling: */
+.title{
+    text-align: center;
+}
+
+/* Bark component Styling: */
+.woof-user-form{
+    background-color: rgb(68, 65, 65);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    }
+
+.button{
+    align-items: center;
+    background-color: rgba(194, 177, 30, 0.938);
+    border: 2px solid rgb(51, 50, 50);
+    color: black;
+    display: flex;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 15px;
+    }
+
+    .loading-gif{
+        border: 2px solid black;
+        border-radius: 20px;
+        height: 100px;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    .loading {
+        text-align: center;
+    }
+
+    /* Navigation Bar Styling: */
+    .navbar {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .nav-item {
+        border-radius: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        margin-left: 20px ;
+        padding: 20px;
+    }
+
+    /* SignIn & SignUp Sheets: */
+    .heading{
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .text-muted {
+    font-size: 15px;
+    font-weight: bold;
+    }
+
+    .signSheet{
+        background-color: rgb(216, 187, 24);
+        border: 2px solid rgb(0, 0, 0);
+        font-family: cursive;
+        font-size: 20px;
+        height: 700px;
+        margin: 10px;
+        padding: 70px;
+    }
+
+    /* Bark Page Styling: */
+    .send-barks-header{
+        color: rgb(216, 187, 24);
+    }
+
+    .bark-page-header {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .insert-bark {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .list-group {
+        list-style-type: none;
+    }
+
+    .instructions {
+        color: rgb(226, 171, 19);
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .sub-heading {
+        font-weight: bold;
+    }
+   
+    /* Google & Facebook Login Buttons: */
+    .google-login {
+        margin: 20px;
+        width: 20px;
+    }
+
+    .facebook-login {
+        background-color: rgb(255, 255, 255);
+        background-image: url('../images/facebook.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-left: 20px;
+        margin: 20px;
+        width: 180px;
+    }
+
+   
