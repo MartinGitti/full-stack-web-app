@@ -91,5 +91,15 @@ Example of the steps needed to follow for deploying the Full Stack Web App to he
 
 ### Display of web application in action:
 <img src="demo.gif" alt="display of web app">
+<hr/>
+
+### Use of code:
+* To use or edit code, load files to local drive.
+* Open files in a text editor of your choice.
+* Navigate to back end files, root directory of folder via the terminal and type "npm i" |or| "npm install" to install node-modules.
+* Navigate to front end files, client, via the terminal and type "npm i" |or| "npm install" to install node-modules.
+* Type "npm run dev" to run both front and back end after node-modules have been installed.
+* The app should open up in your default browser and be available to use.
+<hr/>
 
 <span>Happy Coding :sunglasses:</span>
