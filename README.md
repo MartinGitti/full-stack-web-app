@@ -5,14 +5,17 @@ Full stack web application that allows users to authenticate themselves upon sig
 ## MERN Fullstack Web Application
 ## Part 1- Planning of Web Application.
 
-### The purpose of this app will over a platform where users are able to send messages 
-### via their own profile that allows them to share their thoughts and opinions on a particular subject.
+<p> The purpose of this app will over a platform where users are able to send messages 
+    via their own profile that allows them to share their thoughts and opinions on a particular subject.
+</p>
 
 ### The users will send messages in the form of barks similar to 'tweets' used in 'Tritter'.
 
-### A dog barks as a form of communication or to have itself heard by others. The goal of this
-### App, is to offer users just that by providing a platform for users to voice their opinions
-### or thoughts on a matter.
+<p> 
+  A dog barks as a form of communication or to have itself heard by others. The goal of this
+  App, is to offer users just that by providing a platform for users to voice their opinions
+  or thoughts on a matter.
+</p>
 
 ### Software requirements of the App:
 
